@@ -18,6 +18,7 @@
 'Inconsolata','思源黑体 HW'
 'Inconsolata','等宽雅黑'
 'Inconsolata','LXGW WenKai Mono'
+'Inconsolata','Noto Sans Mono CJK SC'
 
 
 'ubuntu mono','楷体'
@@ -25,6 +26,7 @@
 'ubuntu mono','等距更纱黑体 SC'
 'ubuntu mono','等宽雅黑'
 'ubuntu mono','InconsolataGo QiHei NF'
+'ubuntu mono','Noto Sans Mono CJK SC'
 ```
 
 > 混合配置，95% 等宽
@@ -46,6 +48,7 @@
 '等距更纱黑体 SC'
 '思源黑体 HW'
 'LXGW WenKai Mono'
+'Noto Sans Mono CJK SC'
 // 下面这款有点问题，一个空格宽度等于一个中文宽度，不美观；一个制表符宽度等于8个英文宽度
 '等宽雅黑'
 ```
@@ -76,6 +79,7 @@
 - [等宽雅黑](https://www.fontke.com/font/10388647/download/)
 - [霞鹜文楷 LXGW WenKai Mono](https://github.com/lxgw/LxgwWenKai/releases)
 - [Maple Mono SC NF](https://github.com/subframe7536/maple-font/releases)
+- [Noto Sans Mono CJK SC](https://github.com/notofonts/noto-cjk/releases)
 - [InconsolataGo QiHei NF](https://github.com/allegiant/Hybrid-fonts)
 - [Microsoft YaHei Mono](https://github.com/doggy8088/MicrosoftYaHeiMono-CP950/releases)
 - [Microsoft YaHei Mono](https://github.com/regeditREG/Microsoft-YaHei-Mono)

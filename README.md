@@ -146,7 +146,7 @@ KaiTi
 FangSong
 ```
 
-> 配合回滚字体，95% 等宽
+> 配合回滚字体，95% 等宽，非14、16字号
 ```
 'JetBrains Mono','Maple Mono SC NF'
 'Courier New','Maple Mono SC NF'

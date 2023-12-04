@@ -6,11 +6,10 @@
 
 # Visual Studio Code
 
+### 部分字体配置需调整字号
+
 > 混合配置，完美等宽
 ```
-'Inconsolata','DengXian'
-'Inconsolata','微软雅黑'
-'Inconsolata','微软雅黑 Light'
 'Inconsolata','宋体'
 'Inconsolata','新宋体'
 'Inconsolata','楷体'
@@ -18,6 +17,8 @@
 'Inconsolata','隶书'
 'Inconsolata','仿宋'
 'Inconsolata','黑体'
+'Inconsolata','等线'
+'Inconsolata','微软雅黑'
 'Inconsolata','等宽雅黑'
 'Inconsolata','Microsoft YaHei Mono'
 'Inconsolata','等距更纱黑体 SC'
@@ -25,11 +26,20 @@
 'Inconsolata','LXGW WenKai Mono'
 'Inconsolata','Noto Sans Mono CJK SC'
 
+'ubuntu mono','宋体'
+'ubuntu mono','新宋体'
 'ubuntu mono','楷体'
+'ubuntu mono','幼圆'
+'ubuntu mono','隶书'
+'ubuntu mono','仿宋'
 'ubuntu mono','黑体'
-'ubuntu mono','等距更纱黑体 SC'
+'ubuntu mono','等线'
+'ubuntu mono','微软雅黑'
 'ubuntu mono','等宽雅黑'
-'ubuntu mono','InconsolataGo QiHei NF'
+'ubuntu mono','Microsoft YaHei Mono'
+'ubuntu mono','等距更纱黑体 SC'
+'ubuntu mono','思源黑体 HW'
+'ubuntu mono','LXGW WenKai Mono'
 'ubuntu mono','Noto Sans Mono CJK SC'
 ```
 
@@ -54,20 +64,20 @@
 
 > 单字体配置，完美等宽
 ```
-'InconsolataGo QiHei NF'
+'楷体'
+'幼圆'
+'隶书'
+'仿宋'
+'黑体'
 '等距更纱黑体 SC'
 '思源黑体 HW'
 'LXGW WenKai Mono'
 'Noto Sans Mono CJK SC'
-'幼圆'
-'隶书'
-'楷体'
-'黑体'
-'仿宋'
-// 下面字体有点问题，一个空格宽度等于一个中文宽度，不美观；一个制表符宽度等于8个英文宽度
-'等宽雅黑'
+'InconsolataGo QiHei NF'
+// 下面字体有些问题，空格宽度等于中文宽度，制表符宽度等于8个英文宽度，不美观
 '宋体'
 '新宋体'
+'等宽雅黑'
 ```
 
 > 单字体配置，95% 等宽
@@ -92,6 +102,9 @@ Microsoft YaHei Mono
 // 9、12、15字号，Jet和Yahei的混合字体
 JetBrains Mono PersonalUseOnly
 // 9、10、12、13、15字号
+Noto Sans Mono CJK SC
+InconsolataGo QiHei NF
+霞鹜文楷等宽
 宋体
 新宋体
 幼圆
@@ -115,35 +128,39 @@ JetBrains Mono Maple
 # JetBrains 系列
 > 配合回滚字体，完美等宽，9、12、13、16字号
 ```
-'Inconsolata','DengXian'
-'Inconsolata','Microsoft YaHei'
-//'Inconsolata','微软雅黑 Light'
 'Inconsolata','SimSun'
 'Inconsolata','NSimSun'
 'Inconsolata','KaiTi'
 'Inconsolata','YouYuan'
-//'Inconsolata','隶书'
+'Inconsolata','LiSu'
 'Inconsolata','FangSong'
-//'Inconsolata','黑体'
-//'Inconsolata','等宽雅黑'
+'Inconsolata','SimHei'
+'Inconsolata','DengXian'
+'Inconsolata','Microsoft YaHei'
+'Inconsolata','YaheiMono'
 'Inconsolata','Microsoft YaHei Mono'
 'Inconsolata','Sarasa Mono SC'
-//'Inconsolata','思源黑体 HW'
+//Todo: 'Inconsolata','思源黑体 HW'
 'Inconsolata','LXGW WenKai Mono'
 'Inconsolata','Noto Sans Mono CJK SC'
 ```
 
 > 单字体配置，完美等宽，9、12、13、16字号
 ```
-Sarasa Mono SC
-//思源黑体 HW
+JetBrains Mono PersonalUseOnly
 SimSun
 NSimSun
-YouYuan
-//隶书
 KaiTi
-//黑体
+YouYuan
+LiSu
 FangSong
+SimHei
+Sarasa Mono SC
+//Todo: 思源黑体 HW
+LXGW WenKai Mono
+Noto Sans Mono CJK SC
+YaheiMono
+Microsoft YaHei Mono
 ```
 
 > 配合回滚字体，95% 等宽，非14、16字号
@@ -205,14 +222,14 @@ JetBrains Mono;Microsoft YaHei Mono
 
 <br>
 
-- [等距更纱黑体 SC](https://github.com/be5invis/Sarasa-Gothic/releases)
+- [等距更纱黑体 SC (Sarasa Mono SC)](https://github.com/be5invis/Sarasa-Gothic/releases)
 - [思源黑体 HW](https://github.com/adobe-fonts/source-han-sans/releases)
-- [等宽雅黑](https://www.fontke.com/font/10388647/download/)
-- [霞鹜文楷 LXGW WenKai Mono](https://github.com/lxgw/LxgwWenKai/releases)
+- [等宽雅黑 (YaheiMono)](https://www.fontke.com/font/10388647/download/)
+- [霞鹜文楷 (LXGW WenKai Mono)](https://github.com/lxgw/LxgwWenKai/releases)
 - [Maple Mono SC NF](https://github.com/subframe7536/maple-font/releases)
 - [Noto Sans Mono CJK SC](https://github.com/notofonts/noto-cjk/releases)
 - [InconsolataGo QiHei NF](https://github.com/allegiant/Hybrid-fonts)
 - [Microsoft YaHei Mono](https://github.com/doggy8088/MicrosoftYaHeiMono-CP950/releases)
 - [Microsoft YaHei Mono](https://github.com/regeditREG/Microsoft-YaHei-Mono)
-- [JetBrains Mono Maple](https://github.com/CandyTek/EditorMonospacedFont/blob/main/JetBrains%20Mono%20Maple.ttf)
-- [JetBrains Mono PersonalUseOnly](https://github.com/CandyTek/EditorMonospacedFont/blob/main/JetBrains%20Mono%20PersonalUseOnly.ttf)
+- [混合字体Maple (JetBrains Mono Maple)](https://github.com/CandyTek/EditorMonospacedFont/blob/main/JetBrains%20Mono%20Maple.ttf)
+- [混合字体雅黑 (JetBrains Mono PersonalUseOnly)](https://github.com/CandyTek/EditorMonospacedFont/blob/main/JetBrains%20Mono%20PersonalUseOnly.ttf)

@@ -297,6 +297,6 @@ JetBrains Mono;Microsoft YaHei Mono
 
 - [混合字体 (JetBrains Mono Maple)](https://github.com/CandyTek/EditorMonospacedFont/blob/main/JetBrains%20Mono%20Maple.ttf)
 - [混合字体 (JetBrains Mono Yahei)](https://github.com/CandyTek/EditorMonospacedFont/blob/main/JetBrains%20Mono%20Yahei.ttf)
-- [混合字体 (JetBrains Mono Source Han Sans)](https://github.com/CandyTek/EditorMonospacedFont/blob/main/JetBrains%20Mono%20Source%20Han%20Sans.ttf)
+- [混合字体 (JetBrains Mono Source Han Sans)](https://github.com/CandyTek/EditorMonospacedFont/blob/main/JetBrains%20Mono%20Source%20Han%20Sans.otf)
 - [思源黑体宽度修改 (Source Han Sans HW SC 1200)](https://github.com/CandyTek/EditorMonospacedFont/blob/main/Source%20Han%20Sans%20HW%20SC%201200.ttf)
 

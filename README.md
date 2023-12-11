@@ -4,11 +4,12 @@
 
 <br>
 
+### 注：部分字体配置需调整字号
+
+
 # Visual Studio Code
 
-### 部分字体配置需调整字号
-
-> 混合配置，完美等宽
+> 混合配置
 ```
 'Inconsolata','宋体'
 'Inconsolata','新宋体'
@@ -43,8 +44,38 @@
 'ubuntu mono','Noto Sans Mono CJK SC'
 ```
 
-> 混合配置，95% 等宽
 ```
+'JetBrains Mono','JetBrains Mono Yahei'
+'Courier New','JetBrains Mono Yahei'
+'Source Code Pro','JetBrains Mono Yahei'
+'Monaco for Powerline','JetBrains Mono Yahei'
+'Monaco','JetBrains Mono Yahei'
+'Fira Code','JetBrains Mono Yahei'
+'Hack','JetBrains Mono Yahei'
+'Droid Sans Mono Slashed','JetBrains Mono Yahei'
+'Droid Sans Mono','JetBrains Mono Yahei'
+'DejaVu Sans Mono','JetBrains Mono Yahei'
+'Liberation Mono','JetBrains Mono Yahei'
+'Lucida Console','JetBrains Mono Yahei'
+'Lucida Sans Typewriter','JetBrains Mono Yahei'
+'Noto Mono','JetBrains Mono Yahei'
+
+'JetBrains Mono','Source Han Sans HW SC 1200'
+'Courier New','Source Han Sans HW SC 1200'
+'Source Code Pro','Source Han Sans HW SC 1200'
+'Monaco for Powerline','Source Han Sans HW SC 1200'
+'Monaco','Source Han Sans HW SC 1200'
+'Fira Code','Source Han Sans HW SC 1200'
+'Hack','Source Han Sans HW SC 1200'
+'Droid Sans Mono Slashed','Source Han Sans HW SC 1200'
+'Droid Sans Mono','Source Han Sans HW SC 1200'
+'DejaVu Sans Mono','Source Han Sans HW SC 1200'
+'Liberation Mono','Source Han Sans HW SC 1200'
+'Lucida Console','Source Han Sans HW SC 1200'
+'Lucida Sans Typewriter','Source Han Sans HW SC 1200'
+'Noto Mono','Source Han Sans HW SC 1200'
+
+// Maple Mono 某些字符不等宽
 'JetBrains Mono','Maple Mono SC NF'
 'Courier New','Maple Mono SC NF'
 'Source Code Pro','Maple Mono SC NF'
@@ -59,10 +90,9 @@
 'Lucida Console','Maple Mono SC NF'
 'Lucida Sans Typewriter','Maple Mono SC NF'
 'Noto Mono','Maple Mono SC NF'
-'Unispace','Maple Mono SC NF'
 ```
 
-> 单字体配置，完美等宽
+> 单字体配置
 ```
 '楷体'
 '幼圆'
@@ -74,16 +104,15 @@
 'LXGW WenKai Mono'
 'Noto Sans Mono CJK SC'
 'InconsolataGo QiHei NF'
+'JetBrains Mono Yahei'
+'JetBrains Mono Source Han Sans'
+// Maple Mono 某些字符不等宽
+'Maple Mono SC NF'
+'JetBrains Mono Maple'
 // 下面字体有些问题，空格宽度等于中文宽度，制表符宽度等于8个英文宽度，不美观
 '宋体'
 '新宋体'
 '等宽雅黑'
-```
-
-> 单字体配置，95% 等宽
-```
-'Maple Mono SC NF'
-'JetBrains Mono Maple'
 ```
 
 <br>
@@ -91,19 +120,15 @@
 
 # Visual Studio
 
-> 单字体配置，完美等宽
+> 单字体配置
 ```
-// 9、10、12、13、15字号
 等距更纱黑体 SC
-// 9、10、12、13、15字号
 思源黑体 HW
-// 9、12、15字号
 Microsoft YaHei Mono
-// 9、12、15字号，Jet和Yahei的混合字体
-JetBrains Mono PersonalUseOnly
-// 9、10、12、13、15字号
 Noto Sans Mono CJK SC
 InconsolataGo QiHei NF
+JetBrains Mono Yahei
+JetBrains Mono Source Han Sans
 霞鹜文楷等宽
 宋体
 新宋体
@@ -112,13 +137,8 @@ InconsolataGo QiHei NF
 楷体
 黑体
 仿宋
-```
-
-> 单字体配置，95% 等宽
-```
-// 9、12、15字号
+// Maple Mono 某些字符不等宽
 Maple Mono SC NF
-// 9、12、15字号
 JetBrains Mono Maple
 ```
 
@@ -126,7 +146,8 @@ JetBrains Mono Maple
 <br>
 
 # JetBrains 系列
-> 配合回滚字体，完美等宽，9、12、13、16字号
+
+> 配合回滚字体
 ```
 'Inconsolata','SimSun'
 'Inconsolata','NSimSun'
@@ -140,31 +161,57 @@ JetBrains Mono Maple
 'Inconsolata','YaheiMono'
 'Inconsolata','Microsoft YaHei Mono'
 'Inconsolata','Sarasa Mono SC'
-//Todo: 'Inconsolata','思源黑体 HW'
 'Inconsolata','LXGW WenKai Mono'
 'Inconsolata','Noto Sans Mono CJK SC'
+
+'ubuntu mono','SimSun'
+'ubuntu mono','NSimSun'
+'ubuntu mono','KaiTi'
+'ubuntu mono','YouYuan'
+'ubuntu mono','LiSu'
+'ubuntu mono','FangSong'
+'ubuntu mono','SimHei'
+'ubuntu mono','DengXian'
+'ubuntu mono','Microsoft YaHei'
+'ubuntu mono','YaheiMono'
+'ubuntu mono','Microsoft YaHei Mono'
+'ubuntu mono','Sarasa Mono SC'
+'ubuntu mono','LXGW WenKai Mono'
+'ubuntu mono','Noto Sans Mono CJK SC'
 ```
 
-> 单字体配置，完美等宽，9、12、13、16字号
 ```
-JetBrains Mono PersonalUseOnly
-SimSun
-NSimSun
-KaiTi
-YouYuan
-LiSu
-FangSong
-SimHei
-Sarasa Mono SC
-//Todo: 思源黑体 HW
-LXGW WenKai Mono
-Noto Sans Mono CJK SC
-YaheiMono
-Microsoft YaHei Mono
-```
+'JetBrains Mono','JetBrains Mono Yahei'
+'Courier New','JetBrains Mono Yahei'
+'Source Code Pro','JetBrains Mono Yahei'
+'Monaco for Powerline','JetBrains Mono Yahei'
+'Monaco','JetBrains Mono Yahei'
+'Fira Code','JetBrains Mono Yahei'
+'Hack','JetBrains Mono Yahei'
+'Droid Sans Mono Slashed','JetBrains Mono Yahei'
+'Droid Sans Mono','JetBrains Mono Yahei'
+'DejaVu Sans Mono','JetBrains Mono Yahei'
+'Liberation Mono','JetBrains Mono Yahei'
+'Lucida Console','JetBrains Mono Yahei'
+'Lucida Sans Typewriter','JetBrains Mono Yahei'
+'Noto Mono','JetBrains Mono Yahei'
 
-> 配合回滚字体，95% 等宽，非14、16字号
-```
+'JetBrains Mono','Source Han Sans HW SC 1200'
+'Courier New','Source Han Sans HW SC 1200'
+'Source Code Pro','Source Han Sans HW SC 1200'
+'Monaco for Powerline','Source Han Sans HW SC 1200'
+'Monaco','Source Han Sans HW SC 1200'
+'Fira Code','Source Han Sans HW SC 1200'
+'Hack','Source Han Sans HW SC 1200'
+'Droid Sans Mono Slashed','Source Han Sans HW SC 1200'
+'Droid Sans Mono','Source Han Sans HW SC 1200'
+'DejaVu Sans Mono','Source Han Sans HW SC 1200'
+'Liberation Mono','Source Han Sans HW SC 1200'
+'Lucida Console','Source Han Sans HW SC 1200'
+'Lucida Sans Typewriter','Source Han Sans HW SC 1200'
+'Noto Mono','Source Han Sans HW SC 1200'
+
+// Maple Mono 某些字符不等宽
 'JetBrains Mono','Maple Mono SC NF'
 'Courier New','Maple Mono SC NF'
 'Source Code Pro','Maple Mono SC NF'
@@ -179,14 +226,26 @@ Microsoft YaHei Mono
 'Lucida Console','Maple Mono SC NF'
 'Lucida Sans Typewriter','Maple Mono SC NF'
 'Noto Mono','Maple Mono SC NF'
-'Unispace','Maple Mono SC NF'
 ```
 
-> 单字体配置，95% 等宽
+> 单字体配置
 ```
-// 9、12、15字号
+SimSun
+NSimSun
+KaiTi
+YouYuan
+LiSu
+FangSong
+SimHei
+Sarasa Mono SC
+LXGW WenKai Mono
+Noto Sans Mono CJK SC
+YaheiMono
+Microsoft YaHei Mono
+JetBrains Mono Yahei
+JetBrains Mono Source Han Sans
+// Maple Mono 某些字符不等宽
 Maple Mono SC NF
-// 9、12、15字号
 JetBrains Mono Maple
 ```
 
@@ -219,6 +278,9 @@ JetBrains Mono;Microsoft YaHei Mono
 - [Hack](https://github.com/source-foundry/Hack/releases)
 - [Droid Sans Mono](https://www.fontsquirrel.com/fonts/droid-sans-mono)
 - [Droid Sans Mono Slashed](https://github.com/AlbertoDorado/droid-sans-mono-zeromod/tree/master)
+- [DejaVu Sans Mono](https://github.com/dejavu-fonts/dejavu-fonts/releases)
+- [Liberation Mono](https://www.fontsquirrel.com/fonts/liberation-mono)
+- [Noto Mono](https://www.fontsquirrel.com/fonts/noto-mono)
 
 <br>
 
@@ -229,7 +291,12 @@ JetBrains Mono;Microsoft YaHei Mono
 - [Maple Mono SC NF](https://github.com/subframe7536/maple-font/releases)
 - [Noto Sans Mono CJK SC](https://github.com/notofonts/noto-cjk/releases)
 - [InconsolataGo QiHei NF](https://github.com/allegiant/Hybrid-fonts)
-- [Microsoft YaHei Mono](https://github.com/doggy8088/MicrosoftYaHeiMono-CP950/releases)
-- [Microsoft YaHei Mono](https://github.com/regeditREG/Microsoft-YaHei-Mono)
-- [混合字体Maple (JetBrains Mono Maple)](https://github.com/CandyTek/EditorMonospacedFont/blob/main/JetBrains%20Mono%20Maple.ttf)
-- [混合字体雅黑 (JetBrains Mono PersonalUseOnly)](https://github.com/CandyTek/EditorMonospacedFont/blob/main/JetBrains%20Mono%20PersonalUseOnly.ttf)
+- [Microsoft YaHei Mono](https://github.com/CandyTek/EditorMonospacedFont/blob/main/Microsoft%20YaHei%20Mono.ttf)
+
+<br>
+
+- [混合字体 (JetBrains Mono Maple)](https://github.com/CandyTek/EditorMonospacedFont/blob/main/JetBrains%20Mono%20Maple.ttf)
+- [混合字体 (JetBrains Mono Yahei)](https://github.com/CandyTek/EditorMonospacedFont/blob/main/JetBrains%20Mono%20Yahei.ttf)
+- [混合字体 (JetBrains Mono Source Han Sans)](https://github.com/CandyTek/EditorMonospacedFont/blob/main/JetBrains%20Mono%20Source%20Han%20Sans.ttf)
+- [思源黑体宽度修改 (Source Han Sans HW SC 1200)](https://github.com/CandyTek/EditorMonospacedFont/blob/main/Source%20Han%20Sans%20HW%20SC%201200.ttf)
+

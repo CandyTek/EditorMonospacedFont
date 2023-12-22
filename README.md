@@ -59,6 +59,7 @@
 'Lucida Console','JetBrains Mono Yahei'
 'Lucida Sans Typewriter','JetBrains Mono Yahei'
 'Noto Mono','JetBrains Mono Yahei'
+'Cascadia Code 2000','JetBrains Mono Yahei'
 
 'JetBrains Mono','Source Han Sans HW SC 1200'
 'Courier New','Source Han Sans HW SC 1200'
@@ -74,6 +75,7 @@
 'Lucida Console','Source Han Sans HW SC 1200'
 'Lucida Sans Typewriter','Source Han Sans HW SC 1200'
 'Noto Mono','Source Han Sans HW SC 1200'
+'Cascadia Code 2000','Source Han Sans HW SC 1200'
 
 // Maple Mono 某些字符不等宽
 'JetBrains Mono','Maple Mono SC NF'
@@ -90,6 +92,7 @@
 'Lucida Console','Maple Mono SC NF'
 'Lucida Sans Typewriter','Maple Mono SC NF'
 'Noto Mono','Maple Mono SC NF'
+'Cascadia Code 2000','Maple Mono SC NF'
 ```
 
 > 单字体配置
@@ -106,6 +109,7 @@
 'InconsolataGo QiHei NF'
 'JetBrains Mono Yahei'
 'JetBrains Mono Source Han Sans'
+'Cascadia Code Yahei'
 // Maple Mono 某些字符不等宽
 'Maple Mono SC NF'
 'JetBrains Mono Maple'
@@ -122,21 +126,22 @@
 
 > 单字体配置
 ```
+宋体
+新宋体
+楷体
+幼圆
+隶书
+仿宋
+黑体
+Microsoft YaHei Mono
 等距更纱黑体 SC
 思源黑体 HW
-Microsoft YaHei Mono
+霞鹜文楷等宽
 Noto Sans Mono CJK SC
 InconsolataGo QiHei NF
 JetBrains Mono Yahei
 JetBrains Mono Source Han Sans
-霞鹜文楷等宽
-宋体
-新宋体
-幼圆
-隶书
-楷体
-黑体
-仿宋
+Cascadia Code Yahei
 // Maple Mono 某些字符不等宽
 Maple Mono SC NF
 JetBrains Mono Maple
@@ -195,6 +200,7 @@ JetBrains Mono Maple
 'Lucida Console','JetBrains Mono Yahei'
 'Lucida Sans Typewriter','JetBrains Mono Yahei'
 'Noto Mono','JetBrains Mono Yahei'
+'Cascadia Code 2000','JetBrains Mono Yahei'
 
 'JetBrains Mono','Source Han Sans HW SC 1200'
 'Courier New','Source Han Sans HW SC 1200'
@@ -210,6 +216,7 @@ JetBrains Mono Maple
 'Lucida Console','Source Han Sans HW SC 1200'
 'Lucida Sans Typewriter','Source Han Sans HW SC 1200'
 'Noto Mono','Source Han Sans HW SC 1200'
+'Cascadia Code 2000','Source Han Sans HW SC 1200'
 
 // Maple Mono 某些字符不等宽
 'JetBrains Mono','Maple Mono SC NF'
@@ -226,6 +233,7 @@ JetBrains Mono Maple
 'Lucida Console','Maple Mono SC NF'
 'Lucida Sans Typewriter','Maple Mono SC NF'
 'Noto Mono','Maple Mono SC NF'
+'Cascadia Code 2000','Maple Mono SC NF'
 ```
 
 > 单字体配置
@@ -237,13 +245,14 @@ YouYuan
 LiSu
 FangSong
 SimHei
+YaheiMono
+Microsoft YaHei Mono
 Sarasa Mono SC
 LXGW WenKai Mono
 Noto Sans Mono CJK SC
-YaheiMono
-Microsoft YaHei Mono
 JetBrains Mono Yahei
 JetBrains Mono Source Han Sans
+Cascadia Code Yahei
 // Maple Mono 某些字符不等宽
 Maple Mono SC NF
 JetBrains Mono Maple
@@ -252,16 +261,102 @@ JetBrains Mono Maple
 <br>
 <br>
 
-# Scite 3
-> 混合配置，完美等宽
+# Sublime Text 3 < Build 3126
+
+
+> 混合配置  // [版本字体变动](https://forum.sublimetext.com/t/font-face-can-not-set-2-or-more-in-3126/31663)
+> 
+> 打开 Preferences.sublime-settings User 文件
+> 
+> "font_face": "第一字体,第二字体",
+>
+> "font_options": ["no_bold", "no_italic" ], // 非gdi配置
+>
+> "font_options": ["no_bold", "no_italic" ,"gdi"], // gdi配置
+
+```
+// todo:
+```
+
+# Sublime Text 3
+> 单字体配置
+> 
+> 打开 Preferences.sublime-settings User 文件
+> 
+> "font_face": "第一字体,第二字体",
+>
+> "font_options": ["no_bold", "no_italic" ], // 非gdi配置
+>
+> "font_options": ["no_bold", "no_italic" ,"gdi"], // gdi配置
+
+```
+宋体//非gdi
+新宋体
+楷体
+幼圆//非gdi
+隶书//非gdi
+仿宋
+黑体
+等宽雅黑//非gdi
+Microsoft YaHei Mono//gdi
+等距更纱黑体 SC//非gdi
+思源黑体 HW//gdi
+霞鹜文楷等宽
+Noto Sans Mono CJK SC//非gdi
+InconsolataGo QiHei NF//非gdi
+JetBrains Mono Yahei
+JetBrains Mono Source Han Sans
+Cascadia Code Yahei
+// Maple Mono 某些字符不等宽
+Maple Mono SC NF
+JetBrains Mono Maple
+```
+
+# Scite > 5.1.2
+> 混合配置  // [5.1.2 新特性多字体配置](https://groups.google.com/g/scite-interest/c/PHF4IU1nyUA)
 > 
 > 打开 Global Options 文件
 > 
-> font.monospaced.list=xxx;xxx
+> font.monospaced.list=第一字体;第二字体
 ```
-JetBrains Mono;Microsoft YaHei Mono
+// todo:
 ```
 
+# Scite
+> 单字体配置
+> 
+> 打开 Global Options 文件
+> 
+> font.base=font:xxxxxxxx,size:14
+>
+> font.small=$(font.base)
+>
+> font.comment=$(font.base)
+>
+> font.text=$(font.base)
+>
+> font.monospace=$(font.base)
+```
+SimSun
+NSimSun
+KaiTi
+YouYuan
+LiSu
+FangSong
+SimHei
+YaheiMono
+Microsoft YaHei Mono
+Sarasa Mono SC
+Source Han Sans HW SC
+LXGW WenKai Mono
+Noto Sans Mono CJK SC
+JetBrains Mono Yahei
+JetBrains Mono Source Han Sans
+Cascadia Code Yahei
+// Maple Mono 某些字符不等宽
+Maple Mono SC NF
+JetBrains Mono Maple
+```
 <br>
 <br>
 

@@ -60,6 +60,7 @@
 'Lucida Sans Typewriter','JetBrains Mono Yahei'
 'Noto Mono','JetBrains Mono Yahei'
 'Cascadia Code 2000','JetBrains Mono Yahei'
+'Noto Sans Mono','JetBrains Mono Yahei'
 
 'JetBrains Mono','Source Han Sans HW SC 1200'
 'Courier New','Source Han Sans HW SC 1200'
@@ -76,6 +77,7 @@
 'Lucida Sans Typewriter','Source Han Sans HW SC 1200'
 'Noto Mono','Source Han Sans HW SC 1200'
 'Cascadia Code 2000','Source Han Sans HW SC 1200'
+'Noto Sans Mono','Source Han Sans HW SC 1200'
 
 // Maple Mono 某些字符不等宽
 'JetBrains Mono','Maple Mono SC NF'
@@ -93,6 +95,7 @@
 'Lucida Sans Typewriter','Maple Mono SC NF'
 'Noto Mono','Maple Mono SC NF'
 'Cascadia Code 2000','Maple Mono SC NF'
+'Noto Sans Mono','Maple Mono SC NF'
 ```
 
 > 单字体配置
